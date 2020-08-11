@@ -17,4 +17,4 @@ jobs:
           api_key: "${{secrets.HEROKU_API_KEY}}"
           app_name: "${{secrets.HEROKU_APP_NAME}}" #Must be unique in Heroku
           email: "${{secrets.HEROKU_EMAIL}}"
-          dockerfile: '/home/runner/work/helloheroku/helloheroku/Dockerfile' # set the path to the folder wher the Dokerfile is located
+          dockerfile: '/home/runner/work/helloheroku/helloheroku/' # set the path to the folder wher the Dokerfile is located
