@@ -11,7 +11,7 @@ func main() {
 	fmt.Printf("bind to %s\r\n", *bind)
 
 	http.HandleFunc("/", func (w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, "Hello heroku")
+		fmt.Fprint(w, "Hello heroku!")
 	})
 
 	http.ListenAndServe(*bind, nil)
