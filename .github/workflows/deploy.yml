@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       # https://github.com/marketplace/actions/deploy-to-heroku-using-docker  
-      - uses: jctaveras/heroku-deploy@v2.0.3 # This is the action
+      - uses: jctaveras/heroku-deploy@v1.0.0 # This is the action
         id: heroku
         with:
           heroku_api_key: "${{secrets.HEROKU_API_KEY}}"
